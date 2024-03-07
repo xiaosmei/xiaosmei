@@ -1,0 +1,8 @@
+                        win = false;
+                    }
+                    p.repaint();
+                    myTank.move();
+                    for (int i = 1; i < allTanks.size(); i++) {
+                        allTanks.get(i).move();
+                        allTanks.get(i).setNoFire(myTank.getNoFire() + 1);
+                        // if(allTanks.get(i).getX()%5==0&&allTanks.get(i).getY()%5==0)
