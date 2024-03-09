@@ -1,0 +1,3 @@
+    const ctx = document.getElementById("myCanvas").getContext("2d");
+    const arr = Array(Math.ceil(width / 10)).fill(0);
+    const str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".split("");
