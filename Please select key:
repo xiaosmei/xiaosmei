@@ -1,0 +1,8 @@
+			clrscr();
+			puts("=========================");
+			puts("|  Please select key:   |");
+			puts("|  1. Quary             |");
+			puts("|  2. Credit            |");
+			puts("|  3. Debit             |");
+			puts("|  4. Return            |");
+			puts("=========================");
