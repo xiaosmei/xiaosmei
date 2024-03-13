@@ -1,0 +1,7 @@
+			puts("=========================");
+			SelectKey = getch();
+		}while( SelectKey!='1' && SelectKey!='2' && SelectKey!='3' && SelectKey!='4' );
+		switch(SelectKey)
+		{
+			case '1':
+				clrscr();
