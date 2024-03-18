@@ -1,0 +1,3 @@
+    public void testExpression99(){
+        long start = System.currentTimeMillis();
+        double d = Math.random();
