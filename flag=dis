@@ -1,0 +1,9 @@
+        double d=dis.readDouble();
+        boolean flag=dis.readBoolean();
+        char a=dis.readChar();
+
+        System.out.println(b);
+        System.out.println(s);
+        System.out.println(i);
+        System.out.println(j);
+        System.out.println(f);
