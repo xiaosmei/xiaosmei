@@ -1,0 +1,8 @@
+import java.io.DataInputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
+        byte b=dis.readByte();
+        short s=dis.readShort();
+        int i=dis.readInt();
+        long j=dis.readLong();
+        float f=dis.readFloat();
