@@ -1,0 +1,2 @@
+package com.wt.monitor.skywalking.alarm.domain; import lombok.Data; import java.io.Serializable; /** * @author ChengJianSheng
+ * @date 2020/12/1 */ @Data public class AlarmMessageDTO implements Serializable { private int scopeId; private String scope; /** * Target scope entity name */
