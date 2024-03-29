@@ -1,0 +1,3 @@
+package com.wt.monitor.skywalking.alarm.service; import com.dingtalk.api.DefaultDingTalkClient; import com.dingtalk.api.DingTalkClient; import com.dingtalk.api.request.OapiRobotSendRequest; import com.taobao.api.ApiException; import lombok.extern.slf4j.Slf4j; import org.apache.commons.codec.binary.Base64; import org.springframework.beans.factory.annotation.Value; import org.springframework.stereotype.Service; import javax.crypto.Mac; import javax.crypto.spec.SecretKeySpec; import java.io.UnsupportedEncodingException; import java.net.URLEncoder; import java.security.InvalidKeyException; import java.security.NoSuchAlgorithmException; /** * https://ding-doc.dingtalk.com/doc#/serverapi2/qf2nxq
+ * @author ChengJianSheng
+ * @data 2020/12/1 */ @Slf4j
