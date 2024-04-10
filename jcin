@@ -1,0 +1,3 @@
+    private Optional(T value) {
+        this.value = Objects.requireNonNull(value);
+    }
